@@ -1,0 +1,31 @@
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+li {
+  border: 2px lightblue solid;
+  margin: 10px;
+  width: 270px;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  span{
+    width: 270px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+  }
+  div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    img{
+      align-self: flex-end;
+      padding-left: 10px;
+    }
+  }
+}
