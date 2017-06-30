@@ -20,6 +20,9 @@ Api.prototype.getUid = function(){
   $.get('https://api.betterdoctor.com/2016-03-01/doctors?location=37.773,-122.413,100&skip=2&limit=10&user_key=' + apiKey).then(function(response) {
 
     console.log(response);
+    for (i = 0 ; i <= 9 ; i++){
+      console.log(response.data[i].profile.first_name + " " + response.data[i].profile.last_name);
+    }
 
   });
 };
