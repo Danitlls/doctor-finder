@@ -1,0 +1,17 @@
+{
+  "name": "doctor-finder",
+  "description": "This is a search engine that let the user finde doctors in his/her area base on medical issue",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
