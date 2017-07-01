@@ -9,9 +9,9 @@ $(document).ready(function() {
       console.log(response);
       for (i = 0 ; i <= 14 ; i++){
         var doctorName =  response.data[i].profile.first_name + " " + response.data[i].profile.last_name;
-        var doctorLocation = response.data[i].practices["0"].location_slug;
-        var doctorSpecialities = response.data[i].specialties["0"].actor;
-        var image = response.data["0"].profile.image_url;
+        var doctorLocation = response.data[i].practices[0].location_slug;
+        var doctorSpecialities = response.data[i].specialties[0].actor;
+        var image = response.data[i].profile.image_url;
         //displays list in console:
         var doctor = new Doctor(doctorName, doctorLocation, doctorSpecialities, image);
         console.log(doctor);
