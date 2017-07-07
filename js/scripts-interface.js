@@ -2,17 +2,14 @@ var Doctor = require('./../js/scripts.js').doctorDetails;
 var ApiCall = require('./../js/scripts.js').api;
 
 $(document).ready(function() {
-   $('#search').click(function(){
+  $('#search').click(function() {
     var uid = $("#userUid").val();
-    console.log(uid);
     new ApiCall($, uid)
     .then(function(doctors){
-      console.log(doctors)
       doctors.forEach(function(doctor){
         addDoctor(doctor)
       })
     })
-
   });
   $("button").click(function(){
     $("ul").empty();
