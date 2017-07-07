@@ -7,7 +7,8 @@
 ## Description
 This is a search engine that let the user finde doctors in his/her area base on medical issue.
 
-[Search](http://i.imgur.com/iaZZiWP.png)
+![Search](http://i.imgur.com/iaZZiWP.png?raw=true)
+
 
 ## Setup/Installation Requirements
 * Gulp should be installed in your device.
