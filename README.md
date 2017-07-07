@@ -6,7 +6,7 @@
 
 ## Description
 This is a search engine that let the user finde doctors in his/her area base on medical issue.
-![Image](.\img\doctors.PNG?raw=true "Doctor Finder")
+![Image](.\..\img\doctors.PNG?raw=true "Doctor Finder")
 
 ## Setup/Installation Requirements
 * Gulp should be installed in your device.
